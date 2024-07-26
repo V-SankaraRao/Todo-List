@@ -1,0 +1,72 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  
+  text-align: center;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(27, 22, 22);
+  border-radius: 4px;
+  width: 300px;
+  color: aqua;
+  font-size: large;
+}
+
+.todo h3 {
+  flex: 1; /* Take remaining space */
+  margin: 0;
+}
+
+.cancel-button {
+  padding: 0px;
+  margin-left: 10px;
+  font-size: 28px;
+  color: #ff3333;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  color: #cc0000;
+}
+
+.todo-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.todo-input {
+  flex: 1; /* Take remaining space */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; /* Space between input and button */
+}
+
+.todo-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.todo-button:hover {
+  background-color: #45a049;
+}
+
+.todo-button:focus {
+  outline: none;
+}
